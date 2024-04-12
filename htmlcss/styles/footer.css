@@ -1,0 +1,110 @@
+/*  hero0 section styles*/
+.footer-section{
+    /* height: 370px;
+    background-color: #000435;
+    margin-top: 4px; */
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer-section >.fbanner-image{
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+.footer-section > .fbanner-image img{
+    width: 200px;
+    height: 100px;
+}
+
+/* .footer-section > .link-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    } */
+.footer-section > .contact-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer-section > .contact-section > .fphone{
+    margin-right: 30px;
+    color: #ffffff;
+    padding: 30px 30px;
+    letter-spacing: 2px;
+}
+.footer-section > .contact-section > .fhours{
+    color: #cea135;
+    padding: 30px 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer-section > .flink-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.footer-section > .flink-wrapper > .nav-link{
+    width: 70px;
+    text-align: center;
+}
+
+.footer-section > .flink-wrapper > .nav-link a {
+    font-family: "ubuntu-condensed", sans-serif;
+color: #cbcbcb;
+text-decoration: none;
+transition: 0.5s;
+}
+
+.footer-section >.flink-wrapper > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+    }
+
+
+.footer-section > .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.footer-section > .social-media >.social-icons{
+        width: 70px;
+        text-align: center;
+        
+    }
+
+.footer-section > .social-media >.social-icons a{
+    font-size: 1.5em;
+    transition: 0.5s;
+        
+    }
+
+   
+.footer-section > .social-media >.social-icons a:hover{
+        
+        color: #cea135;
+    }
+
+.footer-section > .social-media i{
+    color: #cbcbcb;
+ 
+}
+
+.footer-section > .copy-right{
+    text-align: center;
+    color: #cbcbcb;
+}
+
+   
